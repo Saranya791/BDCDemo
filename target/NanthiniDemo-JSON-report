@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Registered user access to cart in Demowebshop",
+        "description": "",
+        "id": "bdc-validation-on-demowebshop;registered-user-access-to-cart-in-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1006100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launched demo webshop app in chrome browser",
+            "match": {
+              "location": "BDC_Demo1_Definitions.user_launched_demo_webshop_app_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches for the item of his choice",
+            "match": {
+              "location": "BDC_Demo1_Definitions.user_searches_for_the_item_of_his_choice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Adds that item to cart",
+            "match": {
+              "location": "BDC_Demo1_Definitions.adds_that_item_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression,"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Registered user access track the ordered item in Demowebshop",
+        "description": "",
+        "id": "bdc-validation-on-demowebshop;registered-user-access-track-the-ordered-item-in-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user has already placed an order for his favourite item",
+            "match": {
+              "location": "BDC_Demo1_Definitions.user_has_already_placed_an_order_for_his_favourite_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user tries to access the order tracking dashboard",
+            "match": {
+              "location": "BDC_Demo1_Definitions.user_tries_to_access_the_order_tracking_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "identifies the state of the order",
+            "match": {
+              "location": "BDC_Demo1_Definitions.identifies_the_state_of_the_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "BDC validation on demowebshop",
+    "description": "",
+    "id": "bdc-validation-on-demowebshop",
+    "keyword": "Feature",
+    "uri": "C:/Users/nanthini.kalimuthu/Nanthini_Demo_Cucumber/Features99/BDC_Demo01.feature",
+    "tags": []
+  }
+]
